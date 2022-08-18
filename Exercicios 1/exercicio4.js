@@ -14,7 +14,7 @@ for (let i = 0; i < pessoas; i++) {
 idades.forEach(item => {
     if (item < 18) {
         menor_idade++;
-    } else if(item >= 61){
+    } else if(item > 60){
         idosos++;
     }
     else {
